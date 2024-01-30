@@ -11,6 +11,11 @@
 		F41589ED2B63D7A800E9EB39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41589EC2B63D7A800E9EB39 /* ContentView.swift */; };
 		F41589EF2B63D7AE00E9EB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41589EE2B63D7AE00E9EB39 /* Assets.xcassets */; };
 		F41589F22B63D7AE00E9EB39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41589F12B63D7AE00E9EB39 /* Preview Assets.xcassets */; };
+		F41589FD2B63D87200E9EB39 /* AddGratitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41589FC2B63D87200E9EB39 /* AddGratitudeView.swift */; };
+		F41589FF2B63D9D800E9EB39 /* infoGratitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41589FE2B63D9D800E9EB39 /* infoGratitudeView.swift */; };
+		F4158A022B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4158A002B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodeld */; };
+		F4158A042B63EC8B00E9EB39 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4158A032B63EC8B00E9EB39 /* CoreDataManager.swift */; };
+		F4158A062B63F1DB00E9EB39 /* MyGratitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4158A052B63F1DB00E9EB39 /* MyGratitudeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F41589EC2B63D7A800E9EB39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F41589EE2B63D7AE00E9EB39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41589F12B63D7AE00E9EB39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F41589FC2B63D87200E9EB39 /* AddGratitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGratitudeView.swift; sourceTree = "<group>"; };
+		F41589FE2B63D9D800E9EB39 /* infoGratitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoGratitudeView.swift; sourceTree = "<group>"; };
+		F4158A012B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GratitudeDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F4158A032B63EC8B00E9EB39 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F4158A052B63F1DB00E9EB39 /* MyGratitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGratitudeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		F41589DE2B63D7A800E9EB39 = {
 			isa = PBXGroup;
 			children = (
+				F4158A002B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodeld */,
 				F41589E92B63D7A800E9EB39 /* SukranGunluk */,
 				F41589E82B63D7A800E9EB39 /* Products */,
 			);
@@ -51,10 +62,14 @@
 		F41589E92B63D7A800E9EB39 /* SukranGunluk */ = {
 			isa = PBXGroup;
 			children = (
-				F41589EA2B63D7A800E9EB39 /* SukranGunlukApp.swift */,
-				F41589EC2B63D7A800E9EB39 /* ContentView.swift */,
 				F41589EE2B63D7AE00E9EB39 /* Assets.xcassets */,
 				F41589F02B63D7AE00E9EB39 /* Preview Content */,
+				F41589EA2B63D7A800E9EB39 /* SukranGunlukApp.swift */,
+				F41589EC2B63D7A800E9EB39 /* ContentView.swift */,
+				F41589FC2B63D87200E9EB39 /* AddGratitudeView.swift */,
+				F41589FE2B63D9D800E9EB39 /* infoGratitudeView.swift */,
+				F4158A052B63F1DB00E9EB39 /* MyGratitudeView.swift */,
+				F4158A032B63EC8B00E9EB39 /* CoreDataManager.swift */,
 			);
 			path = SukranGunluk;
 			sourceTree = "<group>";
@@ -139,6 +154,11 @@
 			files = (
 				F41589ED2B63D7A800E9EB39 /* ContentView.swift in Sources */,
 				F41589EB2B63D7A800E9EB39 /* SukranGunlukApp.swift in Sources */,
+				F4158A062B63F1DB00E9EB39 /* MyGratitudeView.swift in Sources */,
+				F41589FF2B63D9D800E9EB39 /* infoGratitudeView.swift in Sources */,
+				F4158A022B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodeld in Sources */,
+				F41589FD2B63D87200E9EB39 /* AddGratitudeView.swift in Sources */,
+				F4158A042B63EC8B00E9EB39 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +295,13 @@
 				DEVELOPMENT_TEAM = VS86F4JTDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gratitude Journal";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +326,13 @@
 				DEVELOPMENT_TEAM = VS86F4JTDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gratitude Journal";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4158A002B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4158A012B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodel */,
+			);
+			currentVersion = F4158A012B63EBFF00E9EB39 /* GratitudeDataModel.xcdatamodel */;
+			path = GratitudeDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F41589DF2B63D7A800E9EB39 /* Project object */;
 }
